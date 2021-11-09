@@ -1,0 +1,1 @@
+# noq-roomq-csharp-dotnet-core-sdk
