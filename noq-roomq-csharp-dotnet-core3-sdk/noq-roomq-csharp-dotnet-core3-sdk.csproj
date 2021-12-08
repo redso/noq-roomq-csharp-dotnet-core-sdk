@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>noq_roomq_csharp_sdk</RootNamespace>
+    <RootNamespace>noq_roomq_csharp_dotnet_core3_sdk</RootNamespace>
     <OutputType>Library</OutputType>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>NoQ.RoomQ.DotNet.Core.3.1.SDK</PackageId>

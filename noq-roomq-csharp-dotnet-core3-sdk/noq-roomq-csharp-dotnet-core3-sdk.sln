@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noq-roomq-csharp-sdk", "noq-roomq-csharp-sdk.csproj", "{94AD98E9-735E-40D1-BCFB-8F88CA173D62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "noq-roomq-csharp-dotnet-core3-sdk", "noq-roomq-csharp-dotnet-core3-sdk.csproj", "{94AD98E9-735E-40D1-BCFB-8F88CA173D62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
