@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>noq_roomq_csharp_sdk</RootNamespace>
+    <OutputType>Library</OutputType>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>NoQ.RoomQ.DotNet.Core.3.1.SDK</PackageId>
+    <Authors>Red Soldier Limited</Authors>
+    <Owners>Red Soldier Limited</Owners>
+    <Description>NoQ RoomQ C# .Net Core 3.1 SDK</Description>
+    <PackageVersion>1.0.4</PackageVersion>
+    <ReleaseVersion>1.0.4</ReleaseVersion>
+    <Copyright>Copyright 2021 (c) Red Soldier Limited. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/redso/noq-roomq-csharp-dotnet-core3-sdk</PackageProjectUrl>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Summary>NoQ RoomQ C# .Net Core 3.1 SDK</Summary>
+    <PackageTags>NoQ RoomQ RedSo RedSoldier RedSoliderLimited</PackageTags>
+    <Title>NoQ RoomQ C# .Net Core 3.1 SDK</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Microsoft.Net.Http" />
+    <None Remove="src\" />
+    <None Remove="src\Exception\" />
+    <None Remove="Microsoft.AspNetCore.Http" />
+    <None Remove="NuGet.Build.Packaging" />
+    <None Remove="jose-jwt" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="JWT" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="jose-jwt" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\Exception\" />
+  </ItemGroup>
+</Project>
